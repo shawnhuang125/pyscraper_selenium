@@ -54,3 +54,22 @@ pip install -r requirement.txt
 pip install -r requirement.txt
 ```
 7. 可手動輸入搜尋關鍵字測試使否正常運行
+
+8. 安裝git
+```
+sudo apt update         # Debian/Ubuntu 系
+sudo apt install git
+
+# 或 CentOS/Rocky Linux
+sudo yum install git
+```
+9. Clone GitHub 專案
+```
+git clone https://github.com/shawnhuang125/pyscraper_selenium.git
+cd pyscraper_selenium
+```
+10. 建立虛擬環境（建議）
+```
+python3 -m venv venv
+source venv/bin/activate
+```
