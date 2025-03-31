@@ -23,7 +23,12 @@
 selenium
 webdriver-manager
 ```
-2. 至以下連結下載對應瀏覽器版本的`google-chromedriver`
+2. 至以下連結下載對應瀏覽器版本的`google-chromedriver`。google chrome版本號可至google瀏覽器的`設定`->`關於chrome`中看到
+- 看到以下版本號,基本上對應至第三個點前面的本版號就可以了
+```
+Chrome is up to date
+Version 134.0.6998.178 (Official Build) (64-bit)
+```
 - [下載連結](https://googlechromelabs.github.io/chrome-for-testing/#stable)
 3. 解壓縮後,將`chromedriver.exe`剪下貼至`windows`的根目錄中的自己新增的folder,並命名為`chromedriver`
 4. 進入「進階系統設定」→ 環境變數,在「系統變數」中選擇 Path → 編輯 → 新增以下路徑
