@@ -73,3 +73,8 @@ cd pyscraper_selenium
 python3 -m venv venv
 source venv/bin/activate
 ```
+11. 執行專案
+```
+python search.py
+```
+- 或是整合進你的專案,再透過你的應用運行
