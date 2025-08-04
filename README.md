@@ -23,6 +23,21 @@
 selenium
 webdriver-manager
 ```
+- 啟用虛擬環境
+```
+.\myenv\Scripts\activate 
+```
+- 無法啟用虛擬環境
+<img width="868" height="158" alt="螢幕擷取畫面 2025-08-04 142913" src="https://github.com/user-attachments/assets/9525afd1-80b3-4be7-bd74-c440a7a6ea21" />
+- 按下`win`+`r`輸入`powershell`並執行以下命令來放寬執行原則（僅限目前使用者）
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+6. 安裝`python`套件
+```
+pip install -r requirement.txt
+```
+
 2. 至以下連結下載對應瀏覽器版本的`google-chromedriver`
 - [下載連結](https://googlechromelabs.github.io/chrome-for-testing/#stable)
 3. 解壓縮後,將`chromedriver.exe`剪下貼至`windows`的根目錄中的自己新增的folder,並命名為`chromedriver`
@@ -39,13 +54,5 @@ chromedriver --version
 ```
 ChromeDriver 120.0.6099.71 (some-hash)
 ```
-6. 安裝`python`套件
-```
-pip install -r requirement.txt
-```
-- 或將文件內容貼到你自己的`reqiurements.txt`
-- 在執行一次
-```
-pip install -r requirement.txt
-```
+
 7. 可手動輸入搜尋關鍵字測試使否正常運行
