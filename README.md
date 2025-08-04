@@ -35,6 +35,7 @@ webdriver-manager
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+- 輸入`Y`
 6. 安裝`python`套件
 ```
 pip install -r requirement.txt
