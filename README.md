@@ -27,8 +27,10 @@ webdriver-manager
 ```
 .\myenv\Scripts\activate 
 ```
+
 - 無法啟用虛擬環境
 <img width="868" height="158" alt="螢幕擷取畫面 2025-08-04 142913" src="https://github.com/user-attachments/assets/9525afd1-80b3-4be7-bd74-c440a7a6ea21" />
+
 - 按下`win`+`r`輸入`powershell`並執行以下命令來放寬執行原則（僅限目前使用者）
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
